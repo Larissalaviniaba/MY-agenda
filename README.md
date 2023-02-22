@@ -1,6 +1,6 @@
 <h1 align='center'> MY Agenda </h1>
 
-<img src="/imgs/tela.png" alt="">
+<img src="./public/imgs/tela.png" alt="">
 
 ## | Descrição |
 
@@ -41,7 +41,7 @@ Case - Agenda telefônica
 
 ## | Sobre mim |
 
-<img src="/imgs/Larissa.png" alt="">
+<img src="./public/imgs/Larissa.jpg" alt="">
 
 Me chamo Larissa Lavínia, tenho 23 anos e sou de Salvador. Sou formada em Front-End Node pela Digital House (Html, Css, Javascript, React e Git) e pela Recode em Full-Stack (Bootstrap, MySQL, Java).
 
