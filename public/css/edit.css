@@ -1,0 +1,109 @@
+.container_edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--very-dark-grey);
+    color: var(--white);
+}
+
+.container_edit > h3{
+    color: var(--main-green);
+    font-weight: 700;
+    padding: 40px;
+}
+
+.container_edit > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    background-color: var(--dark-grey);
+    border-radius: 5px;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+  
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: x-small;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+    font-size: x-small;
+    cursor: text;
+    top: 20px;
+}
+  
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: x-small;
+    color: #9b9b9b;
+}
+  
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 2px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: x-small;
+    color: #11998e;
+    font-weight: 700;
+}
+  
+
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+
+.button_submit{
+    all: unset;
+    width: 45%;
+    height: 25px;
+    background-color: var(--main-green);
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.button_submit:hover{
+    color: var(--lines-light);
+    background-color:var(--main-green-hover);
+}

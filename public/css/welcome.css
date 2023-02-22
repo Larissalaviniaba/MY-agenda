@@ -1,0 +1,267 @@
+.container_welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--very-dark-grey);
+    color: var(--white);
+}
+
+.hover:hover {
+    
+    transform: scale(1.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+/* Header*/
+.header_welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-weight: 700;
+    font-size:x-large;
+    background-color: var(--dark-grey);
+    color: var(--main-green);
+    padding: 0% 8% 0% 2%;
+}
+
+/* Header*/
+
+/* Search*/
+.form_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin: 30px 0px;
+    
+}
+
+.button_search{
+    all: unset;
+    color: var(--main-green);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.input_search{
+    all: unset;
+    width: 40%;
+    height: 28px;
+    font-size: small;
+    
+    color: var(--medium-grey) ;
+    background-color: var(--lines-dark);
+    border-radius: 40px;
+    padding: 0px 10px;
+    
+}
+/* Search*/
+
+.link_add{
+    all: unset;
+    display: flex;
+    color:var(--main-green);
+    padding: 10px;
+    font-size:small;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.title_add{
+    margin-left: 7px;
+}
+
+/* Contacts*/
+
+.card_contatc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18%;
+    height: 100%;
+    background-color: var(--dark-grey);
+    margin: 20px 30px;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+
+.title_contact{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: small;
+    color: var(--main-green);
+
+}
+
+.contact_link{
+    all: unset;
+    width: 95%;
+    border-bottom: 1px solid var(--main-green);
+}
+
+.list_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contact_title{
+    font-weight: 600;
+    font-size: medium;
+    
+    color: var(--main-green);
+    padding: 10px;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.contact_img{
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+    border-radius: 50px;
+    padding: 2px;
+    border: var(--main-green-hover) 2px solid;
+}
+
+.contact_name{
+    font-size: small;
+    font-weight: 500;
+    color: var(--medium-grey);
+}
+
+
+/* Contacts*/
+
+
+/* Contact show*/
+
+.section_show{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 260px;
+    background-color: var(--dark-grey);
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+
+.section_show > .contact_profile{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-green);
+}
+.section_show > .contact_info{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact_info > p {
+    width: 100%;
+    margin-bottom: 9px;
+    font-size:smaller;
+    color: var(--medium-grey);
+    font-weight: 500;
+}
+
+.contact_info > span {
+    color: var(--main-green);
+    font-size: small;
+    margin-bottom: 2px;
+}
+
+.section_show > div>  img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    padding: 2px;
+    border: var(--main-green-hover) 2px solid;
+    margin-bottom: 10px;
+}
+
+.group_buttons{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.group_buttons > a{
+    all: unset;
+}
+
+.group_buttons > a >  .button{
+    all: unset;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-green);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.group_buttons > form >  .button{
+    all: unset;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-green);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Contact show*/
+
+.section_contacts > h2{
+    font-size: medium;
+    color: var(--medium-grey);
+}
+
+.section_contacts > a{
+    font-size: small;
+    color: var(--medium-grey);
+    margin: 5px 0px;
+}
+
+.section_contacts > a:hover{
+    color: var(--main-green-hover);
+}
